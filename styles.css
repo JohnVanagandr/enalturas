@@ -84,7 +84,7 @@ body {
   color: var(--primary-color);
 }
 
-.btn__span i{
+.btn__span i {
   font-size: 1.5rem;
   color: var(--primary-color);
 }
@@ -296,7 +296,6 @@ nav {
 
 .about__container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -679,8 +678,11 @@ nav {
     grid-area: 1/2/2/3;
   }
 
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .skill__container {
-    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: 1fr 2fr;
     align-items: center;
   }
