@@ -17,7 +17,7 @@ navLinks.addEventListener("click", (e) => {
 const scrollRevealOption = {
   origin: "bottom",
   distance: "50px",
-  duration: 1000,
+  duration: 500,
 };
 
 ScrollReveal().reveal(".header__image img", {
@@ -26,19 +26,19 @@ ScrollReveal().reveal(".header__image img", {
 });
 ScrollReveal().reveal(".header__content .section__subheader", {
   ...scrollRevealOption,
-  delay: 500,
+  delay: 300,
 });
 ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 500,
 });
 ScrollReveal().reveal(".header__content .section__description", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 500,
 });
 ScrollReveal().reveal(".header__btns", {
   ...scrollRevealOption,
-  delay: 2000,
+  delay: 500,
 });
 
 ScrollReveal().reveal(".about__container .mision", {
@@ -48,7 +48,7 @@ ScrollReveal().reveal(".about__container .mision", {
 ScrollReveal().reveal(".about__container .mision .section__description", {
   ...scrollRevealOption,
   origin: "left",
-  delay: 1000,
+  delay: 500,
 });
 
 ScrollReveal().reveal(".about__container .vision", {
@@ -58,7 +58,7 @@ ScrollReveal().reveal(".about__container .vision", {
 ScrollReveal().reveal(".about__container .vision .section__description", {
   ...scrollRevealOption,
   origin: "right",
-  delay: 1000,
+  delay: 500,
 });
 
 ScrollReveal().reveal(".skill__content .section__subheader", {
@@ -70,17 +70,17 @@ ScrollReveal().reveal(".skill__content .section__header", {
 });
 ScrollReveal().reveal(".skill__content .section__description", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 500,
 });
 ScrollReveal().reveal(".skill__btn", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 500,
 });
 
 ScrollReveal().reveal(".skill__card", {
   duration: 1000,
   interval: 500,
-  delay: 2000,
+  delay: 100,
 });
 
 const portfolio = document.querySelector(".portfolio__image");
