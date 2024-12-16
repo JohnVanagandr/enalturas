@@ -83,6 +83,12 @@ ScrollReveal().reveal(".skill__card", {
   delay: 100,
 });
 
+ScrollReveal().reveal(".customer__card", {
+  duration: 1000,
+  interval: 500,
+  delay: 100,
+});
+
 const portfolio = document.querySelector(".portfolio__image");
 
 const portfolioContent = Array.from(portfolio.children);
